@@ -115,12 +115,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
         if(savedInstanceState==null){
-            product_listing("Electronics");
-            navigationView.setCheckedItem(R.id.nav_electronics);
+            product_listing("Fruits");
+            navigationView.setCheckedItem(R.id.nav_fruits);
             drawer.closeDrawer(GravityCompat.START);
         }
         else {
-            product_listing("Electronics"); // this will execute when page rotation/ refresh take place
+            product_listing("Fruits"); // this will execute when page rotation/ refresh take place
         }
 
     }
@@ -129,31 +129,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
-        switch (id) {
-
-
-            case R.id.action_logout_tn:
-                startActivity(new Intent(getApplicationContext(),login.class));
-                finishAffinity();
-                mAuth.signOut();
-                return true;
-            case R.id.action_notification:
-                Toast.makeText(getApplicationContext(),"No notification",Toast.LENGTH_LONG).show();
-                return true;
-
-            case  R.id.action_my_account:
-                startActivity(new Intent(getApplicationContext(),MyAccount.class));
-                return true;
-            case R.id.action_transaction:
-                startActivity(new Intent(getApplicationContext(),TransactionActivity.class));
-                return true;
-            case R.id.action_settings:
-                startActivity(new Intent(getApplicationContext(),OrderActivity.class));
-                return true;
-
-            default:
-                return super.onOptionsItemSelected(item);
+        if (id == R.id.action_logout_tn) {
+            startActivity(new Intent(getApplicationContext(), login.class));
+            finishAffinity();
+            mAuth.signOut();
+            return true;
+        } else if (id == R.id.action_notification) {
+            Toast.makeText(getApplicationContext(), "No notification", Toast.LENGTH_LONG).show();
+            return true;
+        } else if (id == R.id.action_my_account) {
+            startActivity(new Intent(getApplicationContext(), MyAccount.class));
+            return true;
+        } else if (id == R.id.action_transaction) {
+            startActivity(new Intent(getApplicationContext(), TransactionActivity.class));
+            return true;
+        } else if (id == R.id.action_settings) {
+            startActivity(new Intent(getApplicationContext(), OrderActivity.class));
+            return true;
         }
+        return super.onOptionsItemSelected(item);
     }
 
 
@@ -201,29 +195,29 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
        switch (item.getItemId()){
-           case R.id.nav_electronics:
-               product_listing("Electronics");
+           case R.id.nav_fruits:
+               product_listing("Fruits");
                break;
-           case R.id.nav_tv_appliances:
-               product_listing("Appliances");
+           case R.id.nav_vegetables:
+               product_listing("Vegetables");
                break;
-           case R.id.nav_fashion :
-               product_listing("Fashion");
+           case R.id.nav_spices :
+               product_listing("Spices");
                break;
-           case R.id.nav_home_furniture :
-               product_listing("Furniture");
+           case R.id.nav_cerials :
+               product_listing("Cerials");
                break;
-           case R.id.nav_grocery :
-               product_listing("Grocery");
+           case R.id.nav_legumes:
+               product_listing("Legumes");
                break;
-           case R.id.nav_beauty_care :
-               product_listing("Beauty_Care");
+           case R.id.nav_animal_products :
+               product_listing("Animal Products");
                break;
-           case R.id.nav_sports:
-               product_listing("Sports");
+           case R.id.nav_medicinal:
+               product_listing("Medicinal");
                break;
-           case R.id.nav_books:
-               product_listing("Books");
+           case R.id.nav_flowers:
+               product_listing("Flowers");
                break;
 
 
@@ -249,7 +243,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
            case R.id.nav_legal:
                break;
            case R.id.nav_about_developer:
-               Intent viewIntent =new Intent("android.intent.action.VIEW",Uri.parse("https://github.com/saurabhpandey9/"));
+               Intent viewIntent =new Intent("android.intent.action.VIEW",Uri.parse("https://github.com/ephraimmaina/"));
                startActivity(viewIntent);
                break;
 

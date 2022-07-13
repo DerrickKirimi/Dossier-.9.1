@@ -39,16 +39,18 @@
         <entry key="app/src/main/res/layout/activity_individual_product_view_.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.21145833333333333" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/order_list_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/products_list_item.xml" value="0.5" />
         <entry key="app/src/main/res/layout/transaction_itemlist.xml" value="0.33" />
-        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
         <entry key="app/src/main/res/menu/main.xml" value="0.33" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

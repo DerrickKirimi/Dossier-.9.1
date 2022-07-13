@@ -126,7 +126,7 @@ public class AddNewProductActivity extends AppCompatActivity {
 
         arrylist = new ArrayList<String>();
         arrylist.add("Select Product Category");
-        arrylist.add("Electronics");
+        arrylist.add("Fruits");
         arrylist.add("Appliances");
         arrylist.add("Fashion");
         arrylist.add("Furniture");
