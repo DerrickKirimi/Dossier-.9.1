@@ -111,17 +111,17 @@
                     android:textColor="@android:color/white" />
 
 
-                <com.wang.avi.AVLoadingIndicatorView
-                    android:id="@+id/loader"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="@dimen/dimen_30"
-                    android:visibility="invisible"
-                    app:indicatorColor="@android:color/white"
-                    app:indicatorName="BallPulseIndicator" />
+<!--                <com.wang.avi.AVLoadingIndicatorView-->
+<!--                    android:id="@+id/loader"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_gravity="center_horizontal"-->
+<!--                    android:layout_marginTop="@dimen/dimen_30"-->
+<!--                    android:visibility="invisible"-->
+<!--                    app:indicatorColor="@android:color/white"-->
+<!--                    app:indicatorName="BallPulseIndicator" />-->
 
 
             </LinearLayout>

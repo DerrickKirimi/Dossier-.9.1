@@ -30,7 +30,7 @@ public class SignUp extends AppCompatActivity {
     private TextInputLayout etREmail, etRPassword,etRName,etRMobileno;
     private Button rbtn;
 
-    private AVLoadingIndicatorView loader;
+   // private AVLoadingIndicatorView loader;
 
     private DatabaseReference mDatabase;
     private FirebaseAuth mAuth;
@@ -49,7 +49,7 @@ public class SignUp extends AppCompatActivity {
         etRName=findViewById(R.id.etLname);
         etRMobileno=findViewById(R.id.etLmobileno);
         rbtn = findViewById(R.id.rbtn);
-        loader=findViewById(R.id.loadersignup);
+        //loader=findViewById(R.id.loadersignup);
         ll=findViewById(R.id.llsignup);
 
         mAuth = FirebaseAuth.getInstance();
@@ -95,7 +95,7 @@ public class SignUp extends AppCompatActivity {
                     alertpassword();
                     return;
                 } else {
-                    loader.setVisibility(View.VISIBLE);
+                   // loader.setVisibility(View.VISIBLE);
                     ll.setClickable(false);
                     mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
@@ -138,7 +138,7 @@ public class SignUp extends AppCompatActivity {
                                             finishAffinity();
                                         }
                                         else {
-                                            loader.setVisibility(View.INVISIBLE);
+                                           // loader.setVisibility(View.INVISIBLE);
                                             ll.setClickable(true);
                                             Toast.makeText(getApplicationContext(),""+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                             mAuth.signOut();
@@ -150,7 +150,7 @@ public class SignUp extends AppCompatActivity {
 
 
                             } else {
-                                loader.setVisibility(View.INVISIBLE);
+                               // loader.setVisibility(View.INVISIBLE);
                                 ll.setClickable(true);
                                 String errMsg = task.getException().getMessage();
                                 Toast.makeText(getApplicationContext(), "Error: " + errMsg, Toast.LENGTH_LONG).show();

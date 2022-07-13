@@ -30,16 +30,16 @@
         android:text="No Item found!" />
 
 
-    <com.wang.avi.AVLoadingIndicatorView
-        android:id="@+id/loader_main_activity"
-        android:layout_width="60sp"
-        android:layout_height="60sp"
-        android:background="@drawable/button_color"
-        android:layout_gravity="center"
-        android:visibility="visible"
-        android:clickable="false"
-        app:indicatorColor="#FFFFFF"
-        app:indicatorName="LineScalePulseOutIndicator" />
+<!--    <com.wang.avi.AVLoadingIndicatorView-->
+<!--        android:id="@+id/loader_main_activity"-->
+<!--        android:layout_width="60sp"-->
+<!--        android:layout_height="60sp"-->
+<!--        android:background="@drawable/button_color"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:visibility="visible"-->
+<!--        android:clickable="false"-->
+<!--        app:indicatorColor="#FFFFFF"-->
+<!--        app:indicatorName="LineScalePulseOutIndicator" />-->
 
 
 

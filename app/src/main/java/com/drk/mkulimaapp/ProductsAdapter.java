@@ -38,14 +38,14 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
     private FirebaseAuth mAuth;
     private FirebaseUser currentUser;
     private DatabaseReference mDatabase;
-    private AVLoadingIndicatorView loader;
+    //private AVLoadingIndicatorView loader;
 
     private String user_id;
 
-    public ProductsAdapter(List<Products> productsList, Context mContext,AVLoadingIndicatorView loader) {
+    public ProductsAdapter(List<Products> productsList, Context mContext) {
         this.productsList = productsList;
         this.mContext = mContext;
-        this.loader=loader;
+        //this.loader=loader;
     }
 
     @NonNull
@@ -60,7 +60,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
         final Products products = productsList.get(productsList.size()-position-1);
 
 
-        loader.hide();
+       // loader.hide();
 
 
         Log.d("size",""+productsList.size());

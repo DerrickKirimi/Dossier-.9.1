@@ -50,7 +50,7 @@ public class login extends AppCompatActivity {
         lbtn = findViewById(R.id.lbtn);
         signup_tv = findViewById(R.id.signup_Ltv);
         tv_forget_password = findViewById(R.id.forget_password_Ltv);
-        loader = (AVLoadingIndicatorView) findViewById(R.id.loader);
+        //loader = (AVLoadingIndicatorView) findViewById(R.id.loader);
         loginwindow=findViewById(R.id.login_window);
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
