@@ -21,9 +21,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.wang.avi.AVLoadingIndicatorView;
+//import com.wang.avi.AVLoadingIndicatorView;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 public class login extends AppCompatActivity {
 
@@ -36,7 +37,7 @@ public class login extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseUser currentUser;
 
-    AVLoadingIndicatorView loader;
+   // AVLoadingIndicatorView loader;
     private LinearLayout loginwindow;
 
     @Override
@@ -84,8 +85,8 @@ public class login extends AppCompatActivity {
                     etLPassword.setError("Enter Password");
                     return;
                 } else {
-                    loader.setVisibility(View.VISIBLE);
-                    loader.setClickable(false);
+                    //loader.setVisibility(View.VISIBLE);
+                    //loader.setClickable(false);
                     mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
@@ -107,11 +108,12 @@ public class login extends AppCompatActivity {
                                 dataMap.put("timestamp", System.currentTimeMillis());
                                 mDatabase.child("users").child(user_id).child("login_details").child(key).updateChildren(dataMap);
 
-                            loader.setVisibility(View.INVISIBLE);
+                            //loader.setVisibility(View.INVISIBLE);
 
                                 mAuth = FirebaseAuth.getInstance();
                                 currentUser = mAuth.getCurrentUser();
-                            if (currentUser.isEmailVerified()){
+                                assert currentUser != null;
+                                if (currentUser.isEmailVerified()){
                                 sendToMain();
                             }
                             else {
@@ -121,9 +123,9 @@ public class login extends AppCompatActivity {
 
 
                             } else {
-                                String errMsg = task.getException().getMessage();
+                                String errMsg = Objects.requireNonNull(task.getException()).getMessage();
                                 Toast.makeText(getApplicationContext(), "Error: " + errMsg, Toast.LENGTH_LONG).show();
-                                loader.setVisibility(View.INVISIBLE);
+                                //loader.setVisibility(View.INVISIBLE);
                                 loginwindow.setClickable(true);
                             }
                         }
