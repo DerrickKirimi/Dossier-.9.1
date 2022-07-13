@@ -127,13 +127,13 @@ public class AddNewProductActivity extends AppCompatActivity {
         arrylist = new ArrayList<String>();
         arrylist.add("Select Product Category");
         arrylist.add("Fruits");
-        arrylist.add("Appliances");
-        arrylist.add("Fashion");
-        arrylist.add("Furniture");
-        arrylist.add("Grocery");
-        arrylist.add("Beauty_Care");
-        arrylist.add("Sports");
-        arrylist.add("Books");
+        arrylist.add("Vegetables");
+        arrylist.add("Spices");
+        arrylist.add("Cereals");
+        arrylist.add("Legumes");
+        arrylist.add("Animal Products");
+        arrylist.add("Medicinal");
+        arrylist.add("Flowers");
 
         ArrayAdapter<String> adapter;
         adapter=new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_spinner_item,arrylist);

@@ -18,8 +18,8 @@
             android:title="Spices" />
         <item
             android:icon="@drawable/ic_furniture"
-            android:id="@+id/nav_cerials"
-            android:title="Cerials" />
+            android:id="@+id/nav_cereals"
+            android:title="cereals" />
         <item
             android:icon="@drawable/ic_grocery"
             android:id="@+id/nav_legumes"
