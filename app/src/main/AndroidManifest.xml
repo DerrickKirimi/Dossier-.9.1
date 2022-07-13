@@ -15,16 +15,20 @@
         android:roundIcon="@drawable/ic_shopping_cart_"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.drk.mkulimaapp.MainActivity"
-            android:label="Mkulima App"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"
+        <activity
+            android:name="com.drk.mkulimaapp.login"
+            android:theme="@style/FullScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.drk.mkulimaapp.MainActivity"
+            android:label="Mkulima App"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
 
         <activity android:name="com.drk.mkulimaapp.TransactionActivity"/>
         <activity android:name="com.drk.mkulimaapp.Payment_final_Activity" />
@@ -46,9 +50,7 @@
         <activity
             android:name="com.drk.mkulimaapp.SignUp"
             android:theme="@style/FullScreen" />
-        <activity
-            android:name="com.drk.mkulimaapp.login"
-            android:theme="@style/FullScreen" />
+
     </application>
 
 </manifest>
