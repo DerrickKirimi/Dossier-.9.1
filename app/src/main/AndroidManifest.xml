@@ -15,7 +15,7 @@
         android:roundIcon="@drawable/ic_shopping_cart_"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.drk.mkulimaapp.MainActivity">
+        <activity android:name="com.drk.mkulimaapp.MainActivity"
             android:label="Mkulima App"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"

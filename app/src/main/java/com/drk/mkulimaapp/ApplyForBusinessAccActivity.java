@@ -24,12 +24,12 @@ public class ApplyForBusinessAccActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     private ProgressDialog progressDialog;
-
+//MODEL
     private DatabaseReference mDatabase;
     private FirebaseUser currentUser;
     private FirebaseAuth mAuth;
     private String user_id;
-
+//UI
     private TextInputLayout tv_apply_business1;
     private TextInputLayout tv_apply_business2;
     private TextInputLayout tv_apply_business3;
@@ -66,7 +66,7 @@ public class ApplyForBusinessAccActivity extends AppCompatActivity {
         tv_apply_business5=findViewById(R.id.newbusiness_account5);
         tv_apply_business6=findViewById(R.id.newbusiness_account6);
         bt_apply_business=findViewById(R.id.btn_newbusiness_account);
-
+//MODEL
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
         mDatabase = FirebaseDatabase.getInstance().getReference();
@@ -89,7 +89,7 @@ public class ApplyForBusinessAccActivity extends AppCompatActivity {
     }
 
     private void apply_businessacc(){
-
+//UI
         String string_apply_business1=tv_apply_business1.getEditText().getText().toString().trim();
         String string_apply_business2=tv_apply_business2.getEditText().getText().toString().trim();
         String string_apply_business3=tv_apply_business3.getEditText().getText().toString().trim();
@@ -133,6 +133,7 @@ public class ApplyForBusinessAccActivity extends AppCompatActivity {
         }
         progressDialog.show();
 
+//model
         Map<String,Object> data=new HashMap();
         data.put("company_owner",string_apply_business1);
         data.put("company_name",string_apply_business2);
@@ -141,7 +142,7 @@ public class ApplyForBusinessAccActivity extends AppCompatActivity {
         data.put("gstin",string_apply_business5);
         data.put("transactionpass",string_apply_business6);
 
-        data.put("isapproved","no");
+        data.put("isapproved","yes");
         data.put("company_key",user_id);
 
         mDatabase.child("BusinessAccounts").child(user_id).setValue(data).addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -151,8 +152,8 @@ public class ApplyForBusinessAccActivity extends AppCompatActivity {
                     progressDialog.dismiss();
                     Toast.makeText(getApplicationContext(),"Applied Successfully",Toast.LENGTH_LONG).show();
                     Toast.makeText(getApplicationContext(),"Please Wait for 15 day until we verify your data",Toast.LENGTH_LONG).show();
-//                    startActivity(new Intent(getApplicationContext(),SplashScreen.class));
-//                    finishAffinity();
+                    startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                    finishAffinity();
                 }
                 else {
                     progressDialog.dismiss();
