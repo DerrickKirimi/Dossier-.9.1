@@ -144,7 +144,7 @@ public class Individual_product_view_Activity extends AppCompatActivity {
         tvPName.setText(product_name);
         tvSName.setText("by " + seller_name);
         String newNumber = CommaSeparate.getFormatedNumber(product_price);
-        tvPPrice.setText("₹" + newNumber);
+        tvPPrice.setText("Ksh. " + newNumber);
         tvPDesc.setText(product_description);
     }
 

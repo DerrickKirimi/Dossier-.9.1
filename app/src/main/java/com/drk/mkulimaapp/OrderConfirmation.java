@@ -110,7 +110,7 @@ public class OrderConfirmation extends AppCompatActivity {
             proctdesc_tv.setText(product_description);
 
             String newNumber = CommaSeparate.getFormatedNumber(product_price);
-            tvPPrice.setText("₹ " +newNumber);
+            tvPPrice.setText("Ksh.  " +newNumber);
 
             user_id = currentUser.getUid();
 

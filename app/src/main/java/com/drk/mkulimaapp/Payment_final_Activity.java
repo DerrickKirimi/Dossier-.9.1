@@ -136,8 +136,8 @@ public class Payment_final_Activity extends AppCompatActivity {
         tv_orderID=findViewById(R.id.final_payment_order_id);
         tv_itemcount.setText(total_product_count);
         String newNumber = CommaSeparate.getFormatedNumber(total_price);
-        tv_price1.setText("₹"+newNumber);
-        tv_totalamount.setText("₹"+newNumber);
+        tv_price1.setText("Ksh. "+newNumber);
+        tv_totalamount.setText("Ksh. "+newNumber);
         tv_orderID.setText("TID"+Orderid);
 
         //over showoff

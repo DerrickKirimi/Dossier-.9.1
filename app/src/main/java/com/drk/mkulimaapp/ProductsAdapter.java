@@ -79,7 +79,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.ViewHo
 
         // for comma separate
         String newNumber = CommaSeparate.getFormatedNumber(products.getProduct_price());
-        viewHolder.tvProductPrice.setText("₹" + newNumber);
+        viewHolder.tvProductPrice.setText("Ksh. " + newNumber);
 
         viewHolder.tvProductName.setText(products.getProduct_name());
         viewHolder.tvSellerName.setText("by " + products.getCompany_name());

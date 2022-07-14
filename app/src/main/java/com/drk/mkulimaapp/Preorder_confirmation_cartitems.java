@@ -81,7 +81,7 @@ public class Preorder_confirmation_cartitems extends AppCompatActivity {
         tvCBAddress.setText(address);
         tvCBTItems.setText(total_product_count);
         String newNumber = CommaSeparate.getFormatedNumber(total_price);
-        tvCBTPrice.setText("₹ " + newNumber);
+        tvCBTPrice.setText("Ksh.  " + newNumber);
     }
 
     private void redirectPrefinalPayment(){

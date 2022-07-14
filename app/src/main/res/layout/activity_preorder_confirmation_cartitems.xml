@@ -254,7 +254,7 @@
                             android:textAllCaps="true"
                             android:textColor="@android:color/black"
                             android:layout_alignParentRight="true"
-                            android:text="₹NA"
+                            android:text="Ksh. NA"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
 

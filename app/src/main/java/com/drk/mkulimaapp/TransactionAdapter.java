@@ -34,7 +34,7 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.
         holder.tv_transaction_status.setText(transaction.getOrder_status());
         holder.tv_date.setText(transaction.getTr_date());
         String newNumber = CommaSeparate.getFormatedNumber(transaction.getTr_amount());
-        holder.tv_amount.setText("₹"+newNumber);
+        holder.tv_amount.setText("Ksh. "+newNumber);
     }
 
     @Override

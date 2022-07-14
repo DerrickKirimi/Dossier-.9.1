@@ -35,7 +35,7 @@
             android:title="Medicinal" />
         <item
             android:id="@+id/nav_flowers"
-            android:icon="@drawable/ic_book1"
+            android:icon="@drawable/ic_flowers"
             android:title="Flowers" />
 
     </group>

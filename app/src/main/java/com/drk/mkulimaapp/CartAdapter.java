@@ -60,7 +60,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.ViewHolder> {
 
 
         viewHolder.product_name.setText(cart.getProduct_name());
-        viewHolder.product_price.setText("₹" + newNumber);
+        viewHolder.product_price.setText("Ksh. " + newNumber);
         viewHolder.seller_name.setText("by " + cart.getCompany_name());
         Picasso.get().load(cart.getProduct_image()).fit().into(viewHolder.imageView10, new Callback() {
             @Override

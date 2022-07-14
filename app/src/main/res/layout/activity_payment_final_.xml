@@ -240,12 +240,12 @@
 
                         <TextView
                             android:id="@+id/final_payment_price"
-                            android:textAllCaps="true"
-                            android:textColor="@android:color/black"
-                            android:layout_alignParentRight="true"
-                            android:text="₹NA"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="Ksh. NA"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/black" />
 
                     </RelativeLayout>
 
@@ -307,7 +307,7 @@
                             android:textAllCaps="true"
                             android:textColor="@android:color/black"
                             android:layout_alignParentRight="true"
-                            android:text="₹NA"/>
+                            android:text="Ksh. NA"/>
 
                     </RelativeLayout>
 

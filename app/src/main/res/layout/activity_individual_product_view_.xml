@@ -130,7 +130,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity=""
             android:layout_weight="1"
-            android:background="@drawable/button_color_5"
+            android:background="@drawable/button_color_2"
             android:text="Buy Now"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
