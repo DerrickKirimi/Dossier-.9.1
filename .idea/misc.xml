@@ -58,7 +58,7 @@
         <entry key="app/src/main/res/layout/order_list_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/products_list_item.xml" value="0.5" />
         <entry key="app/src/main/res/layout/transaction_itemlist.xml" value="0.33" />
-        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
         <entry key="app/src/main/res/menu/main.xml" value="0.33" />
       </map>
     </option>

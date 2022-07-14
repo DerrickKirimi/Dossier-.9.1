@@ -6,32 +6,32 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_fruits"
-            android:icon="@drawable/ic_electronics"
+            android:icon="@drawable/ic_star"
             android:title="Fruits" />
         <item
-            android:icon="@drawable/ic_tv_appliances"
+            android:icon="@drawable/ic_star"
             android:id="@+id/nav_vegetables"
             android:title="Vegetables" />
         <item
-            android:icon="@drawable/ic_cloth"
+            android:icon="@drawable/ic_star"
             android:id="@+id/nav_spices"
             android:title="Spices" />
         <item
-            android:icon="@drawable/ic_furniture"
+            android:icon="@drawable/ic_star"
             android:id="@+id/nav_cereals"
             android:title="cereals" />
         <item
-            android:icon="@drawable/ic_grocery"
+            android:icon="@drawable/ic_star"
             android:id="@+id/nav_legumes"
             android:title="Legumes" />
         <item
+            android:icon="@drawable/ic_star"
             android:id="@+id/nav_animal_products"
-            android:icon="@drawable/ic_beauty"
             android:title="Animal Products" />
 
         <item
+            android:icon="@drawable/ic_star"
             android:id="@+id/nav_medicinal"
-            android:icon="@drawable/ic_sports"
             android:title="Medicinal" />
         <item
             android:id="@+id/nav_flowers"

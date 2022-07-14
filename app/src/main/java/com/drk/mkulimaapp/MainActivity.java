@@ -243,7 +243,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
            case R.id.nav_legal:
                break;
            case R.id.nav_about_developer:
-               Intent viewIntent =new Intent("android.intent.action.VIEW",Uri.parse("https://github.com/ephraimmaina/"));
+               Intent viewIntent =new Intent("android.intent.action.VIEW",Uri.parse("https://android.com/"));
                startActivity(viewIntent);
                break;
 
