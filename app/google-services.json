@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "159298997379",
-    "firebase_url": "https://mkulima-app-12a21-default-rtdb.firebaseio.com",
-    "project_id": "mkulima-app-12a21",
-    "storage_bucket": "mkulima-app-12a21.appspot.com"
+    "project_number": "150529822482",
+    "project_id": "mkulima-grocery-app",
+    "storage_bucket": "mkulima-grocery-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:159298997379:android:5ee09f2f162c7b7e8d5fb6",
+        "mobilesdk_app_id": "1:150529822482:android:062d8797c0abf11ba7edcb",
         "android_client_info": {
-          "package_name": "com.drk.mkulimaapp"
+          "package_name": "com.drk.mkulima"
         }
       },
       "oauth_client": [
         {
-          "client_id": "159298997379-08u5dbrgs1c7s3gpj29vrc8v3ivjrf85.apps.googleusercontent.com",
+          "client_id": "150529822482-o1ol24rqo0d8d1eiuar9o838vr759p4c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDhlJlXBls7Rnm6r2TlEsX2Z3OmQ5djRmU"
+          "current_key": "AIzaSyATZFvcetOnFTqbtQGOaeg7gUFhGme_nzA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "159298997379-08u5dbrgs1c7s3gpj29vrc8v3ivjrf85.apps.googleusercontent.com",
+              "client_id": "150529822482-o1ol24rqo0d8d1eiuar9o838vr759p4c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

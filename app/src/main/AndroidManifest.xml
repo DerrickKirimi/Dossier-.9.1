@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.drk.mkulimaapp">
+    package="com.drk.mkulima">
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.drk.mkulimaapp.login"
+            android:name="com.drk.mkulima.login"
             android:theme="@style/FullScreen"
             android:exported="true">
             <intent-filter>
@@ -24,31 +24,31 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.drk.mkulimaapp.MainActivity"
+        <activity android:name="com.drk.mkulima.MainActivity"
             android:label="Mkulima App"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
 
 
-        <activity android:name="com.drk.mkulimaapp.TransactionActivity"/>
-        <activity android:name="com.drk.mkulimaapp.Payment_final_Activity" />
-        <activity android:name="com.drk.mkulimaapp.Pre_payment_Activity"/>
-        <activity android:name="com.drk.mkulimaapp.Individual_product_view_Activity" />
-        <activity android:name="com.drk.mkulimaapp.ApplyForBusinessAccActivity" />
-        <activity android:name="com.drk.mkulimaapp.AddNewProductActivity" />
-        <activity android:name="com.drk.mkulimaapp.About_developerAcitvity" />
-        <activity android:name="com.drk.mkulimaapp.ChecksumActivity" />
-        <activity android:name="com.drk.mkulimaapp.UpdateUserDetails" />
-        <activity android:name="com.drk.mkulimaapp.ChangePasswordActivity" />
-        <activity android:name="com.drk.mkulimaapp.AddnewAddressActivity" />
-        <activity android:name="com.drk.mkulimaapp.MyaddressActivity" />
-        <activity android:name="com.drk.mkulimaapp.MyAccount" />
-        <activity android:name="com.drk.mkulimaapp.OrderActivity" />
-        <activity android:name="com.drk.mkulimaapp.CartListActivity" />
-        <activity android:name="com.drk.mkulimaapp.Preorder_confirmation_cartitems" />
-        <activity android:name="com.drk.mkulimaapp.OrderConfirmation" />
+        <activity android:name="com.drk.mkulima.TransactionActivity"/>
+        <activity android:name="com.drk.mkulima.Payment_final_Activity" />
+        <activity android:name="com.drk.mkulima.Pre_payment_Activity"/>
+        <activity android:name="com.drk.mkulima.Individual_product_view_Activity" />
+        <activity android:name="com.drk.mkulima.ApplyForBusinessAccActivity" />
+        <activity android:name="com.drk.mkulima.AddNewProductActivity" />
+        <activity android:name="com.drk.mkulima.About_developerAcitvity" />
+        <activity android:name="com.drk.mkulima.ChecksumActivity" />
+        <activity android:name="com.drk.mkulima.UpdateUserDetails" />
+        <activity android:name="com.drk.mkulima.ChangePasswordActivity" />
+        <activity android:name="com.drk.mkulima.AddnewAddressActivity" />
+        <activity android:name="com.drk.mkulima.MyaddressActivity" />
+        <activity android:name="com.drk.mkulima.MyAccount" />
+        <activity android:name="com.drk.mkulima.OrderActivity" />
+        <activity android:name="com.drk.mkulima.CartListActivity" />
+        <activity android:name="com.drk.mkulima.Preorder_confirmation_cartitems" />
+        <activity android:name="com.drk.mkulima.OrderConfirmation" />
         <activity
-            android:name="com.drk.mkulimaapp.SignUp"
+            android:name="com.drk.mkulima.SignUp"
             android:theme="@style/FullScreen" />
 
     </application>
