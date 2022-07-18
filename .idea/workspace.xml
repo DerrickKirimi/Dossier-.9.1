@@ -18,67 +18,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/drk/mkulimaapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/drk/mkulima/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/About_developerAcitvity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/About_developerAcitvity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/AddNewProductActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/AddNewProductActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/AddnewAddressActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/AddnewAddressActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/AddressAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/AddressAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/ApplyForBusinessAccActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/ApplyForBusinessAccActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/CartAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/CartAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/CartListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/CartListActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/ChangePasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/ChangePasswordActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/ChecksumActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/ChecksumActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/CommaSeparate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/CommaSeparate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Individual_product_view_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Individual_product_view_Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/MyAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/MyAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/MyaddressActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/MyaddressActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/OrderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/OrderActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/OrderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/OrderAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/OrderConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/OrderConfirmation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Payment_final_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Payment_final_Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Pre_payment_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Pre_payment_Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Preorder_confirmation_cartitems.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Preorder_confirmation_cartitems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/ProductsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/ProductsAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/TransactionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/TransactionActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/TransactionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/TransactionAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/UpdateUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/UpdateUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulimaapp/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/drk/mkulima/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/add_product_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_color.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_color_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_color_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_color_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_beauty.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_beauty_caare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_book1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_cloth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_developer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_furniture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_grocery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_legal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_logout.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_order.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_sports.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_transaction.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_tv_appliances.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_electronics.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/drk/mkulimaapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/drk/mkulima/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +79,7 @@
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="mkulimaapp.app" />
+      <module name="mkulima.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />

@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.drk.mkulima.MainActivity"
-            android:label="Mkulima App"
+            android:label="mkulima"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"/>
 
