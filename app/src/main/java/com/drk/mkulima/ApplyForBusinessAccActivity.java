@@ -151,7 +151,7 @@ public class ApplyForBusinessAccActivity extends AppCompatActivity {
                 if (task.isSuccessful()){
                     progressDialog.dismiss();
                     Toast.makeText(getApplicationContext(),"Applied Successfully",Toast.LENGTH_LONG).show();
-                    Toast.makeText(getApplicationContext(),"Please Wait for 15 day until we verify your data",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Please Wait until we verify your data",Toast.LENGTH_LONG).show();
                     startActivity(new Intent(getApplicationContext(),MainActivity.class));
                     finishAffinity();
                 }

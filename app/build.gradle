@@ -39,9 +39,8 @@ dependencies {
     implementation 'com.github.tntkhang:gmail-sender-library:1.2.0'
 
 
-    // for payment gatway Integration
+    // for payment gateway Integration
     implementation 'com.shreyaspatil:EasyUpiPayment:2.1'
-
 
 
     //progress bar triple dot

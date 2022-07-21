@@ -97,21 +97,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <TextView
-                        android:textSize="@dimen/Heading_cardview"
-                        android:textColor="@color/Text_color_heading_cardview"
-                        android:text="Prime Membership"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
 
-                    <TextView
-                        android:maxLines="2"
-                        android:layout_marginTop="10dp"
-                        android:textSize="@dimen/Heading_cardview"
-                        android:textColor="#C5C1C1"
-                        android:text="Get Extra benefits on Product Purchase"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
 
                     <View
                         android:layout_width="match_parent"
@@ -120,15 +106,6 @@
                         android:layout_marginBottom="10dp"
                         android:background="#C5C1C1" />
 
-                    <TextView
-                        android:id="@+id/tv_myaccount_prime_membership"
-                        android:textAllCaps="true"
-                        android:gravity="right"
-                        android:textSize="@dimen/Heading_cardview"
-                        android:textColor="@color/Text_color_link_cardview"
-                        android:text="View your membership"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
 
                 </LinearLayout>
 
@@ -210,7 +187,7 @@
                         android:layout_marginTop="10dp"
                         android:textSize="@dimen/Heading_cardview"
                         android:textColor="#C5C1C1"
-                        android:text="Home number 00 , Cannot Place New Delhi XXXX India"
+                        android:text="Home number 00 "
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
 

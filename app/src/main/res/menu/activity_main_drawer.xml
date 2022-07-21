@@ -12,31 +12,18 @@
             android:icon="@drawable/ic_star"
             android:id="@+id/nav_vegetables"
             android:title="Vegetables" />
-        <item
-            android:icon="@drawable/ic_star"
-            android:id="@+id/nav_spices"
-            android:title="Spices" />
+
         <item
             android:icon="@drawable/ic_star"
             android:id="@+id/nav_cereals"
             android:title="cereals" />
-        <item
-            android:icon="@drawable/ic_star"
-            android:id="@+id/nav_legumes"
-            android:title="Legumes" />
+
         <item
             android:icon="@drawable/ic_star"
             android:id="@+id/nav_animal_products"
             android:title="Animal Products" />
 
-        <item
-            android:icon="@drawable/ic_star"
-            android:id="@+id/nav_medicinal"
-            android:title="Medicinal" />
-        <item
-            android:id="@+id/nav_flowers"
-            android:icon="@drawable/ic_flowers"
-            android:title="Flowers" />
+
 
     </group>
 

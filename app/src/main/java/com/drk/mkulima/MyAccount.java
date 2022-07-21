@@ -28,7 +28,6 @@ public class MyAccount extends AppCompatActivity {
     private TextView mobilenumber;
     private TextView email;
     private TextView tv_myordere;
-    private TextView tv_prime_membership;
     private TextView tv_alladdress;
     private TextView tv_default__address;
     private TextView tv_business_account;
@@ -65,7 +64,6 @@ public class MyAccount extends AppCompatActivity {
         mobilenumber=findViewById(R.id.tv_myaccount_mobile_number);
         email=findViewById(R.id.tv_myaccount_email_address);
         tv_myordere=findViewById(R.id.tv_my_account_myorder);
-        tv_prime_membership=findViewById(R.id.tv_myaccount_prime_membership);
         tv_alladdress=findViewById(R.id.tv_myaccount_myaddress);
         tv_default__address=findViewById(R.id.tv_default_address_my_account);
         tv_business_account=findViewById(R.id.tv_myaccount_business_account);
@@ -94,13 +92,7 @@ public class MyAccount extends AppCompatActivity {
             businesscheck();
 
 
-            tv_prime_membership.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    tv_prime_membership.setText("Your are Not Prime Member");
-                    tv_prime_membership.setTextColor(Color.RED);
-                }
-            });
+           };
 
             tv_myordere.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -151,7 +143,7 @@ public class MyAccount extends AppCompatActivity {
 
 
 
-    }
+
 
 
     private void Accountinfo(){
@@ -165,13 +157,13 @@ public class MyAccount extends AppCompatActivity {
                     String smobilen=dataSnapshot.child("mobilenumber").getValue().toString();
 
                     name.setText(sname);
-                    mobilenumber.setText("+91 "+smobilen);
+                    mobilenumber.setText("+254 "+smobilen);
 
 
 
                 }catch (Exception e){
                     name.setText("Update user details");
-                    mobilenumber.setText("+91 "+"Not Found");
+                    mobilenumber.setText("+254 "+"Not Found");
                 }
 
                 // for email

@@ -200,24 +200,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
            case R.id.nav_vegetables:
                product_listing("Vegetables");
                break;
-           case R.id.nav_spices :
-               product_listing("Spices");
-               break;
+
            case R.id.nav_cereals :
                product_listing("cereals");
                break;
-           case R.id.nav_legumes:
-               product_listing("Legumes");
-               break;
+
            case R.id.nav_animal_products :
                product_listing("Animal Products");
                break;
-           case R.id.nav_medicinal:
-               product_listing("Medicinal");
-               break;
-           case R.id.nav_flowers:
-               product_listing("Flowers");
-               break;
+
 
 
            case R.id.nav_mycart:
